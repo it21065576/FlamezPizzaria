@@ -166,7 +166,7 @@ public class OrderedFoodList extends AppCompatActivity {
                                 }
                             })
 
-                            .setNegativeButton("Chash On Delivery", new DialogInterface.OnClickListener() {
+                            .setNegativeButton("Cash On Delivery", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                     FirebaseDatabase.getInstance().getReference("Orders").child(user.get(position).getId()).removeValue();
