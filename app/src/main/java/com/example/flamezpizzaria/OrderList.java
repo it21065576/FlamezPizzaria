@@ -34,6 +34,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+// add customer details
 public class OrderList extends AppCompatActivity {
 
     Button button;
@@ -85,7 +86,7 @@ public class OrderList extends AppCompatActivity {
             }
         });
     }
-
+// view holders
     static class ViewHolder {
 
         ImageView imageView;
