@@ -40,6 +40,7 @@ public class OrderedFoodList extends AppCompatActivity {
     String idd;
     String upprice;
 
+// comment update
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,7 +75,7 @@ public class OrderedFoodList extends AppCompatActivity {
             }
         });
     }
-
+//create clas
     static class ViewHolder {
 
         ImageView imageView1;
@@ -105,7 +106,7 @@ public class OrderedFoodList extends AppCompatActivity {
             int y;
             String barcode;
         }
-
+//view class holder
         @SuppressLint("SetTextI18n")
         @Override
         public View getView(int position, View view, ViewGroup parent) {
@@ -179,7 +180,7 @@ public class OrderedFoodList extends AppCompatActivity {
 
                 }
             });
-
+//delete function
             holder.button2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -206,7 +207,7 @@ public class OrderedFoodList extends AppCompatActivity {
                             .show();
                 }
             });
-
+//update function
             holder.button1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -262,7 +263,7 @@ public class OrderedFoodList extends AppCompatActivity {
                         }
                     });
 
-
+//upate function
                     buttonupdate.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
