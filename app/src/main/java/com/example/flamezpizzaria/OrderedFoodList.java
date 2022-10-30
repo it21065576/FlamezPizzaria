@@ -152,7 +152,7 @@ public class OrderedFoodList extends AppCompatActivity {
                 public void onClick(View v) {
 
                     final AlertDialog alertDialog = new AlertDialog.Builder(getContext())
-                            .setTitle("Select your Payment Method?")
+                            .setTitle("Select your Payment Method")
                             .setPositiveButton("Pay Online", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -170,7 +170,7 @@ public class OrderedFoodList extends AppCompatActivity {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                     FirebaseDatabase.getInstance().getReference("Orders").child(user.get(position).getId()).removeValue();
-                                    Toast.makeText(myContext, "Order Payment Complete successfully!!1", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(myContext, "Order Payment Complete successfully!!!", Toast.LENGTH_SHORT).show();
                                     Intent intent = new Intent(OrderedFoodList.this, CustomerHome.class);
                                     startActivity(intent);
                                 }
