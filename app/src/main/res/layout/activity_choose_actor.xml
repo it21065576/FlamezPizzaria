@@ -5,8 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/back"
     android:gravity="center"
     tools:context=".ChooseActor">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/download" />
 
     <Button
         android:id="@+id/cuslog"
@@ -27,4 +34,5 @@
         android:textColor="@color/white"
         app:backgroundTint="@color/black"
         app:cornerRadius="15dp" />
+
 </LinearLayout>
