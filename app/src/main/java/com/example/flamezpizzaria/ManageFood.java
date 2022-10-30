@@ -138,6 +138,8 @@ public class ManageFood extends AppCompatActivity {
             Picasso.get().load(user.get(position).getImage()).into(holder.imageView);
             System.out.println(holder);
 
+            //delete ordered items
+
             holder.button2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -206,6 +208,7 @@ public class ManageFood extends AppCompatActivity {
                         }
                     });
 
+                    //Update process
 
                     buttonupdate.setOnClickListener(new View.OnClickListener() {
                         @Override
