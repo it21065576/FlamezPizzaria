@@ -142,7 +142,7 @@ public class ManageFeedbacks extends AppCompatActivity {
                                     final String idd = user.get(position).getId();
                                     FirebaseDatabase.getInstance().getReference("FeedbackDetails").child(idd).removeValue();
                                     //remove function not written
-                                    Toast.makeText(myContext, "Item deleted Successfully", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(myContext, "Item deleted Successfully !!!", Toast.LENGTH_SHORT).show();
 
                                 }
                             })
@@ -225,7 +225,7 @@ public class ManageFeedbacks extends AppCompatActivity {
                                 map.put("customerFeedback", description);
                                 reference.updateChildren(map);
 
-                                Toast.makeText(ManageFeedbacks.this, "Item Updated successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ManageFeedbacks.this, "Item Updated successfully !!!", Toast.LENGTH_SHORT).show();
 
                                 alertDialog.dismiss();
 
