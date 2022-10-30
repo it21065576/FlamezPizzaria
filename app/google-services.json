@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "235366809559",
+    "project_id": "flamez-pizzaria",
+    "storage_bucket": "flamez-pizzaria.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235366809559:android:cc1d60613f152a15961592",
+        "android_client_info": {
+          "package_name": "com.example.flamezpizzaria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235366809559-5l6urj34ka6ij78ijdkm96l778ivq3as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq9BsvM_jg910vobw7Sw5KnvxLwEdKUok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235366809559-5l6urj34ka6ij78ijdkm96l778ivq3as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
