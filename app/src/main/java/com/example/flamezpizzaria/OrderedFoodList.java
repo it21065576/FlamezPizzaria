@@ -299,7 +299,7 @@ public class OrderedFoodList extends AppCompatActivity {
                                 map.put("updatePrice",finalval);
                                 reference.updateChildren(map);
 
-                                Toast.makeText(OrderedFoodList.this, "Updated successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(OrderedFoodList.this, "Items Updated successfully", Toast.LENGTH_SHORT).show();
 
                                 alertDialog.dismiss();
                             }
