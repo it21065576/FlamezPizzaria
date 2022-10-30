@@ -45,7 +45,6 @@ public class AddProduct extends AppCompatActivity {
     int Image_Request_Code = 7;
 
     @Override
-    //insert
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_product);
